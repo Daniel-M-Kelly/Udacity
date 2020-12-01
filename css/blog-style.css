@@ -1,7 +1,7 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(4,fr1);
-    grid-template-columns: repeat(3,fr1);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-template-areas:
     "hd hd hd hd"
     "nb main main main"
