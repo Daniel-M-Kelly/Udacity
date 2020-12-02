@@ -1,4 +1,4 @@
-/* Phone screen Size < 640px*/
+/* Mobile screen Size < 640px*/
 @media (max-width:640px){
     .container{
         display: grid;
@@ -12,9 +12,22 @@
         "main main main main"
         "ft ft ft ft";
     }
+
+    /* Sticky NavBar */
+    .sticky{
+        position: -webkit-sticky;
+        position:sticky;
+        top: 0;
+    }
+
+    .navbar{
+        grid-area: nb;
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-/* Medium screen Size > 641px < 1007*/
+/* Tablet screen Size > 641px < 1007*/
 @media (min-width:641px) and (max-width: 1007){
     .container{
         display: grid;
@@ -26,9 +39,22 @@
         "main main main main"
         "ft ft ft ft";
     }
+
+    /* Sticky NavBar */
+    .sticky{
+        position: -webkit-sticky;
+        position:sticky;
+        top: 0;
+    }
+
+    .navbar{
+        grid-area: nb;
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-/* Large screen Size > 1008px */
+/* Desktop screen Size > 1008px */
 @media (min-width:1008px){
     .container{
         display: grid;
@@ -50,21 +76,22 @@
     grid-area: hd;
 }
 
-.navbar{
-    grid-area: nb;
-}
+
 
 .content{
     grid-area: main;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer{
     grid-area: ft;
 }
 
-/* Sticky NavBar */
-.sticky{
-    position: -webkit-sticky;
-    position:sticky;
-    top: 0;
+.post{
+    border: 1px solid blue;
+}
+
+.navitem{
+    border: 1px solid blue;
 }
