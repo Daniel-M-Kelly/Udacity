@@ -1,2 +1,3 @@
-@import "./blog-style.css";
-@import "./post-style.css";
+@import "./blog-layout.css";
+@import "./post-layout.css";
+@import "./text-style.css"
