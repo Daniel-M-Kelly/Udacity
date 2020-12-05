@@ -3,7 +3,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(8,1fr);
+        grid-template-rows: repeat(2,.2fr) repeat(3,1fr) .2fr;
         grid-template-areas:
         "hd hd hd hd"
         "nb nb nb nb"
@@ -20,7 +20,7 @@
         top: 0;
     }
 
-    .navbar{
+    .navbar {
         grid-area: nb;
         display: flex;
         flex-direction: row;
@@ -36,7 +36,7 @@
         column-gap: 10px;
         row-gap: 15px;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(2,.2fr) 1fr .2fr;
         grid-template-areas:
         "hd hd hd hd"
         "nb nb nb nb"
@@ -51,7 +51,7 @@
         top: 0;
     }
 
-    .navbar{
+    .navbar {
         grid-area: nb;
         display: flex;
         flex-direction: row;
@@ -65,12 +65,29 @@
     .container{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: .2fr .2fr 1fr .2fr;
         grid-template-areas:
         "hd hd hd hd"
         "nb main main main"
+        "nb main main main"
         "ft ft ft ft";
     }
+
+    .navbar {
+        grid-area: nb;
+        grid-row: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+        /* Sticky NavBar */
+        .sticky{
+            position: -webkit-sticky;
+            position:sticky;
+            top: 0;
+        }
 }
 
 .box{
@@ -80,26 +97,44 @@
 
 .header{
     grid-area: hd;
+    text-align: center;
 }
-
-
 
 .content{
     grid-area: main;
     display: flex;
     flex-direction: column;
-    margin: 0px
+    margin: 0px;
+    align-items: center;
 }
 
 .footer{
     grid-area: ft;
-    height: 30px
+    height: 30px;
 }
 
 .post{
     border: 1px solid blue;
+    border-radius: 25px;
+    margin: 10px;
 }
 
 .navitem{
     border: 1px solid blue;
+}
+
+h2{ 
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
