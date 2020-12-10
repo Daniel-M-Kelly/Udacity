@@ -1,0 +1,39 @@
+/* Set root font size */
+html {
+    font-size: 62.5%; /* Root font size based on user's font size - default 16px *.625 = 10px */
+}
+
+h1, h2, h3, p, a {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #036ba3;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #4a4d4f;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: black;
+}
+
+a {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-decoration: none;
+}
+
