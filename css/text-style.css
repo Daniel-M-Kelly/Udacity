@@ -3,8 +3,12 @@ html {
     font-size: 62.5%; /* Root font size based on user's font size - default 16px *.625 = 10px */
 }
 
-h1, h2, h3, p, a {
-    font-family: Arial;
+header {
+    font-family: arial;
+}
+
+body {
+    font-family: arial;
 }
 
 h1 {
@@ -37,3 +41,13 @@ a {
     text-decoration: none;
 }
 
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #272727;
+}
+
+button {
+    font-size: 1.5rem;
+}
