@@ -8,6 +8,7 @@
         grid-template-areas:
         "hd hd hd hd"
         "nb nb nb nb"
+        "av au au au"
         "main main main main"
         "main main main main"
         "main main main main"
@@ -29,6 +30,15 @@
         justify-content: center;
         gap: 1em;
     }
+    .author{
+        grid-area: au;
+        padding: 1em;
+    }
+    
+    .avatar{
+        grid-area: av;
+    }
+
 }
 
 /* Tablet screen Size > 641px < 1007*/
@@ -43,6 +53,7 @@
         grid-template-areas:
         "hd hd hd hd"
         "nb nb nb nb"
+        "av au au au"
         "main main main main"
         "ft ft ft ft";
     }
@@ -61,6 +72,14 @@
         justify-content: center;
         gap: 1em;
     }
+    .author{
+        grid-area: au;
+        padding: 1em;
+    }
+    
+    .avatar{
+        grid-area: av;
+    }
 }
 
 /* Desktop screen Size > 1008px */
@@ -71,7 +90,8 @@
         grid-auto-rows: min-content;
         grid-template-areas:
         "hd hd hd hd"
-        "nb main main main"
+        "av main main main"
+        "au main main main"
         "nb main main main"
         "ft ft ft ft";
     }
@@ -91,6 +111,16 @@
             position:sticky;
             top: 0;
         }
+        .author{
+            grid-area: au;
+            padding: 1em;
+            grid-row: 4;
+        }
+        
+        .avatar{
+            grid-area: av;
+            grid-row:3;
+        }
 }
 
 .box{
@@ -105,8 +135,6 @@
 
 .content{
     grid-area: main;
-    display: flex;
-    flex-direction: column;
     margin: 0px;
     align-items: center;
 }
@@ -116,8 +144,7 @@
     height: 3em;
 }
 
-.postcard{
-    border: 1px solid blue;
+.post{
     padding: 1em;
 }
 
@@ -125,13 +152,6 @@
     border: 1px solid blue;
 }
 
-h2{ 
-    text-align: center;
-}
-
-p{
-    text-align: justify;
-}
 img {
     margin-left: auto;
     margin-right: auto;

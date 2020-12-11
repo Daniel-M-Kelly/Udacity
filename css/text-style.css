@@ -21,6 +21,7 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
     color: #036ba3;
+    text-align: center;
 }
 
 h3 {
@@ -33,6 +34,7 @@ p {
     font-size: 1.5rem;
     font-weight: normal;
     color: black;
+    text-align: justify;
 }
 
 a {
