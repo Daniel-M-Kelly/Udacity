@@ -123,39 +123,6 @@
         }
 }
 
-.box{
-    border: 1px solid red;
-    background: #F8FA9D;
-}
-
-.header{
-    grid-area: hd;
-    text-align: center;
-}
-
-.content{
-    grid-area: main;
-    margin: 0px;
-    align-items: center;
-}
-
-.footer{
-    grid-area: ft;
-    height: 3em;
-}
-
 .post{
     padding: 1em;
-}
-
-.navitem{
-    border: 1px solid blue;
-}
-
-img {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0.8em;
-    max-width: 100%;
-    height: auto;
 }
