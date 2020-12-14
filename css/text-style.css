@@ -60,3 +60,8 @@ button {
     font-style: italic;
     color: #272727;
 }
+
+.avatarimg {
+    max-width: 150px;
+    max-height: auto;
+}
