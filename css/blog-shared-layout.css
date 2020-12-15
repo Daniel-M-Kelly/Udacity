@@ -69,17 +69,17 @@ figure {
     margin-right: 4em;
 }
 
-p {
+p.blogbody {
     margin-left: 3em;
     margin-right: 3em;
 }
 
-h3{
+h3.blogbody {
     margin-left: 2em;
     margin-right: 2em;
 }
 
-h4 {
+h4.blogbody {
     margin-left: 3em;
     margin-right: 3em;
 }
