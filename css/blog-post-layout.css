@@ -117,12 +117,12 @@
         .author{
             grid-area: au;
             padding: 1em;
-            grid-row: 5;
+            grid-row: 4;
         }
         
         .avatar{
             grid-area: av;
-            grid-row:4;
+            grid-row:3;
         }
 
 }
