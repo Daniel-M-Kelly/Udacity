@@ -31,6 +31,14 @@
         justify-content: center;
         gap: 1em;
     }
+    .share{
+        grid-area: sh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1em;
+    }
+    
     .author{
         grid-area: au;
         padding: 1em;
@@ -38,14 +46,6 @@
     
     .avatar{
         grid-area: av;
-    }
-
-    .share{
-        grid-area: sh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 1em;
     }
 
 }
@@ -82,14 +82,6 @@
         justify-content: center;
         gap: 1em;
     }
-    .author{
-        grid-area: au;
-        padding: 1em;
-    }
-    
-    .avatar{
-        grid-area: av;
-    }
 
     .share{
         grid-area: sh;
@@ -97,6 +89,15 @@
         flex-direction: row;
         justify-content: center;
         gap: 1em;
+    }
+    
+    .author{
+        grid-area: au;
+        padding: 1em;
+    }
+    
+    .avatar{
+        grid-area: av;
     }
 }
 
