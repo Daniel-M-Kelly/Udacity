@@ -1,15 +1,15 @@
 
-.box{
+.box {
     border: 1px solid red;
     background: #F8FA9D;
 }
 
-.header{
+.header {
     grid-area: hd;
     text-align: center;
 }
 
-.content{
+.content {
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.footer{
+.footer {
     grid-area: ft;
     height: 3em;
     padding: 2em;
@@ -27,11 +27,11 @@
     gap: 1em;
 }
 
-.postcard{
+.postcard {
     padding: 1em;
 }
 
-.navitem{
+.navitem {
     border: 1px solid blue;
 }
 

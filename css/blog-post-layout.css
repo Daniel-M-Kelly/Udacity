@@ -87,7 +87,7 @@
 
 /* Desktop screen Size > 1008px */
 @media (min-width:1008px){
-    .container{
+    .container {
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-auto-rows: min-content;
@@ -110,17 +110,17 @@
     }
 
         /* Sticky NavBar */
-        .sticky{
+        .sticky {
             position: -webkit-sticky;
             position:sticky;
             top: 0;
         }
-        .avatar{
+        .avatar {
             grid-area: av;
             grid-row:3;
 
         }
-        .author{
+        .author {
             grid-area: au;
             grid-row:4;
             padding: 1em;
@@ -128,6 +128,6 @@
 
 }
 
-.post{
+.post {
     padding: 1em;
 }
