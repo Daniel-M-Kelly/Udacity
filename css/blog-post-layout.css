@@ -92,11 +92,12 @@
         grid-template-columns: repeat(4,1fr);
         grid-auto-rows: min-content;
         grid-template-areas:
-        "hd hd hd hd"
+        "av hd hd hd"
         "av main main main"
         "au main main main"
+        "au main main main"
         "nb main main main"
-        "ft ft ft ft";
+        "nb ft ft ft";
     }
 
     .navbar {
@@ -114,15 +115,15 @@
             position:sticky;
             top: 0;
         }
-        .author{
-            grid-area: au;
-            padding: 1em;
-            grid-row: 4;
-        }
-        
         .avatar{
             grid-area: av;
             grid-row:3;
+
+        }
+        .author{
+            grid-area: au;
+            grid-row:4;
+            padding: 1em;
         }
 
 }
