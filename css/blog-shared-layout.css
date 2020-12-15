@@ -58,3 +58,28 @@ img {
     color: white;
     font-weight: bold;
 }
+
+.avatarimg {
+    max-width: 150px;
+    max-height: auto;
+}
+
+figure {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+p {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+h3{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h4 {
+    margin-left: 3em;
+    margin-right: 3em;
+}
